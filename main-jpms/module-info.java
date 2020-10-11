@@ -1,2 +1,2 @@
-module zoftwhere.ground.zero {
+module zoftwhere.project.zero {
 }
