@@ -1,7 +1,7 @@
 # ZoftWhere Project Zero
 ![Language](https://img.shields.io/github/languages/top/ZoftWhere/project-zero)
 [![License](https://img.shields.io/github/license/ZoftWhere/project-zero)](https://github.com/ZoftWhere/project-zero/blob/master/license.txt)
-![GitHub release (latest by date)](https://img.shields.io/github/release/ZoftWhere/project-zero)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/ZoftWhere/project-zero)
 ![GitHub Release Date](https://img.shields.io/github/release-date/ZoftWhere/project-zero)
 ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/ZoftWhere/project-zero/master?label=master%20updated)
 
