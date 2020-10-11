@@ -1,6 +1,8 @@
 # IDE files
-/.idea/libraries
+/.idea/dictionaries
+/.idea/inspectionProfiles
 /.idea/shelf
+/.idea/libraries
 /.idea/*.xml
 
 # Maven target
