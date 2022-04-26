@@ -7,7 +7,7 @@ Ensure ~/.ssh directory is created:
 mkdir -p ~/.ssh
 ```
 
-Creat configuration file.
+Create configuration file.
 ```bash
 touch ~/.ssh/config
 ```
