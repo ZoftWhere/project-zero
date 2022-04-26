@@ -21,4 +21,19 @@ class PromptBuilderDebug {
                 .toString();
         assertEquals("\\u@\\H \\w\\n\\$ ", prompt);
     }
+
+    @Test
+    void testPromptDirectory() {
+        var prompt = new PromptBuilder()
+            .addUserName()
+            .addString("@")
+            .addFullHostName()
+            .addString(" ")
+            .addCurrentDirectory()
+            .addCarriageReturnCharacter()
+            .addPromptUID()
+            .addString(" ")
+            .toString();
+        assertEquals("\\u@\\H \\W\\r\\$ ", prompt);
+    }
 }
