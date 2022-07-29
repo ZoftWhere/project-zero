@@ -2,7 +2,7 @@
 
 ## Use SSH key per account.
 
-A SSH key can be specified per website account (including GitHub) by using an SSH config.
+An SSH key can be specified per website account (including GitHub) by using an SSH config.
 
 
 ```ssh-config
@@ -12,7 +12,7 @@ Host admin.github.com
 	User git
 	IdentityFile ~/.ssh/id_rsa_admin_github
 # test account
-Host admin.github.com
+Host test.github.com
 	HostName github.com
 	User git
 	IdentityFile ~/.ssh/id_rsa_test_github
