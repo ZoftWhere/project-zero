@@ -1,4 +1,4 @@
-# Bash Settings (MacOS)
+# Bash Settings (macOS)
 
 ## User profile.
 
