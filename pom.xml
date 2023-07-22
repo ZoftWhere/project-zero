@@ -22,39 +22,39 @@
 
         <!-- Settings: maven-compiler-plugin -->
         <maven.compiler.main-jdk>8</maven.compiler.main-jdk>
-        <maven.compiler.test-jdk>11</maven.compiler.test-jdk>
+        <maven.compiler.test-jdk>17</maven.compiler.test-jdk>
 
         <!-- Settings: maven-build -->
         <maven.build.timestamp.format>yyyy-MM-dd&apos;T&apos;HH:mm:ss&apos;Z&apos;</maven.build.timestamp.format>
 
         <!-- Settings: User defined plugin properties (Maven) -->
-        <!-- https://search.maven.org/search?q=g:org.apache.maven.plugins -->
-        <maven-assembly-plugin.version>3.4.2</maven-assembly-plugin.version>
-        <maven-clean-plugin.version>3.2.0</maven-clean-plugin.version>
-        <maven-compiler-plugin.version>3.10.1</maven-compiler-plugin.version>
-        <maven-dependency-plugin.version>3.3.0</maven-dependency-plugin.version>
-        <maven-deploy-plugin.version>3.0.0</maven-deploy-plugin.version>
-        <maven-ear-plugin.version>3.2.0</maven-ear-plugin.version>
-        <maven-enforcer-plugin.version>3.1.0</maven-enforcer-plugin.version>
+        <!-- https://maven.apache.org/plugins/ -->
+        <maven-assembly-plugin.version>3.6.0</maven-assembly-plugin.version>
+        <maven-clean-plugin.version>3.3.1</maven-clean-plugin.version>
+        <maven-compiler-plugin.version>3.11.0</maven-compiler-plugin.version>
+        <maven-dependency-plugin.version>3.6.0</maven-dependency-plugin.version>
+        <maven-deploy-plugin.version>3.1.1</maven-deploy-plugin.version>
+        <maven-ear-plugin.version>3.3.0</maven-ear-plugin.version>
+        <maven-enforcer-plugin.version>3.3.0</maven-enforcer-plugin.version>
         <maven-ejb-plugin.version>3.2.1</maven-ejb-plugin.version>
         <maven-install-plugin.version>3.0.1</maven-install-plugin.version>
-        <maven-jar-plugin.version>3.2.2</maven-jar-plugin.version>
-        <maven-javadoc-plugin.version>3.4.0</maven-javadoc-plugin.version>
+        <maven-jar-plugin.version>3.3.0</maven-jar-plugin.version>
+        <maven-javadoc-plugin.version>3.5.0</maven-javadoc-plugin.version>
         <maven-jdeps-plugin.version>3.1.2</maven-jdeps-plugin.version>
         <maven-project-info-reports-plugin.version>3.4.0</maven-project-info-reports-plugin.version>
-        <maven-resources-plugin.version>3.3.0</maven-resources-plugin.version>
-        <maven-shade-plugin.version>3.3.0</maven-shade-plugin.version>
+        <maven-resources-plugin.version>3.3.1</maven-resources-plugin.version>
+        <maven-shade-plugin.version>3.5.0</maven-shade-plugin.version>
         <maven-site-plugin.version>3.12.0</maven-site-plugin.version>
-        <maven-source-plugin.version>3.2.1</maven-source-plugin.version>
-        <maven-surefire-plugin.version>3.0.0-M7</maven-surefire-plugin.version>
+        <maven-source-plugin.version>3.3.0</maven-source-plugin.version>
+        <maven-surefire-plugin.version>3.1.2</maven-surefire-plugin.version>
         <maven-toolchains-plugin.version>3.1.0</maven-toolchains-plugin.version>
-        <maven-war-plugin.version>3.3.2</maven-war-plugin.version>
+        <maven-war-plugin.version>3.4.0</maven-war-plugin.version>
         <!-- Settings: User defined plugin properties (Other) -->
-        <moditect-maven-plugin.version>1.0.0.Beta2</moditect-maven-plugin.version>
+        <moditect-maven-plugin.version>1.0.0.Final</moditect-maven-plugin.version>
+        <surefire.printSummary>false</surefire.printSummary>
         <!-- Settings: User defined dependency properties (main) -->
         <!-- Settings: User defined dependency properties (test) -->
-        <org.junit.5.version>5.8.2</org.junit.5.version>
-        <surefire.printSummary>false</surefire.printSummary>
+        <org.junit.5.version>5.9.2</org.junit.5.version>
     </properties>
 
     <dependencyManagement>
@@ -71,16 +71,16 @@
 
     <dependencies>
         <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
             <groupId>org.junit.platform</groupId>
             <artifactId>junit-platform-launcher</artifactId>
             <scope>test</scope>
             <optional>true</optional>
-        </dependency>
-
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter</artifactId>
-            <scope>test</scope>
         </dependency>
     </dependencies>
 
