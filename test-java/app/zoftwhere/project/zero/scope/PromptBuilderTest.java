@@ -5,20 +5,20 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class PromptBuilderDebug {
+class PromptBuilderTest {
 
     @Test
     void showPromptFor() {
         var prompt = new PromptBuilder()
-                .addUserName()
-                .addString("@")
-                .addFullHostName()
-                .addString(" ")
-                .addWorkingDirectory()
-                .addNewLineCharacter()
-                .addPromptUID()
-                .addString(" ")
-                .toString();
+            .addUserName()
+            .addString("@")
+            .addFullHostName()
+            .addString(" ")
+            .addWorkingDirectory()
+            .addNewLineCharacter()
+            .addPromptUID()
+            .addString(" ")
+            .toString();
         assertEquals("\\u@\\H \\w\\n\\$ ", prompt);
     }
 
