@@ -473,9 +473,11 @@
       <option name="PRIMARY_KEY_NAME_TEMPLATE" value="{table}_{columns}_pk" />
     </SybaseCodeStyleSettings>
     <XML>
+      <option name="XML_ATTRIBUTE_WRAP" value="0" />
       <option name="XML_KEEP_LINE_BREAKS" value="false" />
       <option name="XML_KEEP_BLANK_LINES" value="1" />
       <option name="XML_ALIGN_ATTRIBUTES" value="false" />
+      <option name="XML_SPACE_INSIDE_EMPTY_TAG" value="true" />
     </XML>
     <codeStyleSettings language="DB2">
       <indentOptions>
@@ -830,6 +832,9 @@
       <indentOptions>
         <option name="CONTINUATION_INDENT_SIZE" value="4" />
       </indentOptions>
+      <arrangement>
+        <rules />
+      </arrangement>
     </codeStyleSettings>
     <codeStyleSettings language="kotlin">
       <indentOptions>
