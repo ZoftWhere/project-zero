@@ -2,7 +2,8 @@
 
 ## Optimize Sublime Text project indexing.
 
-Indexing of binary files can be excluded by defining which files are considered binary (or which file types should not be indexed).
+Indexing of binary files can be excluded by defining which files are considered binary (or which file types should not
+be indexed).
 
 ```json5
 {
