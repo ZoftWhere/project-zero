@@ -1,0 +1,100 @@
+<keymap version="1" name="ZoftWhereKeyMap" parent="Mac OS X 10.5+">
+  <action id="ActivateBuildToolWindow">
+    <keyboard-shortcut first-keystroke="meta 0" />
+  </action>
+  <action id="DebugClass">
+    <keyboard-shortcut first-keystroke="shift ctrl d" />
+    <keyboard-shortcut first-keystroke="f7" />
+  </action>
+  <action id="EditSource">
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
+  <action id="EditorTextEnd">
+    <keyboard-shortcut first-keystroke="meta end" />
+    <keyboard-shortcut first-keystroke="meta down" />
+  </action>
+  <action id="EditorTextEndWithSelection">
+    <keyboard-shortcut first-keystroke="shift meta end" />
+    <keyboard-shortcut first-keystroke="shift meta down" />
+  </action>
+  <action id="EditorTextStart">
+    <keyboard-shortcut first-keystroke="meta home" />
+    <keyboard-shortcut first-keystroke="meta up" />
+  </action>
+  <action id="EditorTextStartWithSelection">
+    <keyboard-shortcut first-keystroke="shift meta home" />
+    <keyboard-shortcut first-keystroke="shift meta up" />
+  </action>
+  <action id="ExternalSystem.OpenConfig">
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
+  <action id="Jdbc.OpenEditor.Data">
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
+  <action id="MakeModule">
+    <keyboard-shortcut first-keystroke="meta f4" />
+  </action>
+  <action id="Maven_3b294273geberit_dex_portal_paper_trail_api3c16f0dbcom.spotify.fmt:fmt-maven-plugin:2.18:format">
+    <keyboard-shortcut first-keystroke="ctrl alt l" />
+  </action>
+  <action id="Maven_4c27b1bgeberit_deap_bmecata1e10183com.spotify.fmt:fmt-maven-plugin:2.18:format">
+    <keyboard-shortcut first-keystroke="ctrl alt l" />
+  </action>
+  <action id="Maven_50496c6bgeberit_deap_ighc949a2d3com.spotify.fmt:fmt-maven-plugin:2.18:format">
+    <keyboard-shortcut first-keystroke="ctrl alt l" />
+  </action>
+  <action id="Maven_9020a69fgeberit_dex_portal_apie12d6907com.spotify.fmt:fmt-maven-plugin:2.18:format">
+    <keyboard-shortcut first-keystroke="ctrl alt l" />
+  </action>
+  <action id="Maven_93809b2egeberit_deap_bmdg_v221935e96com.spotify.fmt:fmt-maven-plugin:2.18:format">
+    <keyboard-shortcut first-keystroke="ctrl alt l" />
+  </action>
+  <action id="Maven_ad057ea8geberit_deap_igh_dataexpertce222810com.spotify.fmt:fmt-maven-plugin:2.19:format">
+    <keyboard-shortcut first-keystroke="ctrl alt l" />
+  </action>
+  <action id="Maven_aeb6b26geberit_deap_fabdis870ab68ecom.spotify.fmt:fmt-maven-plugin:2.18:format">
+    <keyboard-shortcut first-keystroke="ctrl alt l" />
+  </action>
+  <action id="MinimizeCurrentWindow" />
+  <action id="MoveStatementDown" />
+  <action id="MoveStatementUp" />
+  <action id="NavBar-navigate">
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
+  <action id="OpenModuleSettings">
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
+  <action id="ProjectViewEditSource">
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
+  <action id="Replace">
+    <keyboard-shortcut first-keystroke="meta r" />
+    <keyboard-shortcut first-keystroke="meta h" />
+  </action>
+  <action id="ResizeToolWindowDown" />
+  <action id="ResizeToolWindowLeft" />
+  <action id="ResizeToolWindowRight" />
+  <action id="ResizeToolWindowUp" />
+  <action id="Resume">
+    <keyboard-shortcut first-keystroke="meta alt r" />
+  </action>
+  <action id="RunClass">
+    <keyboard-shortcut first-keystroke="shift ctrl r" />
+    <keyboard-shortcut first-keystroke="f8" />
+  </action>
+  <action id="SearchEverywhere.NavigateToNextGroup">
+    <keyboard-shortcut first-keystroke="page_down" />
+  </action>
+  <action id="SearchEverywhere.NavigateToPrevGroup">
+    <keyboard-shortcut first-keystroke="page_up" />
+  </action>
+  <action id="ShowNavBar">
+    <keyboard-shortcut first-keystroke="alt home" />
+  </action>
+  <action id="Sql.EditParameter">
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
+  <action id="StepInto">
+    <keyboard-shortcut first-keystroke="f11" />
+  </action>
+</keymap>
