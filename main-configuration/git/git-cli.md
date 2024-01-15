@@ -39,7 +39,7 @@ git config --local user.email "21172332+osmundf@users.noreply.github.com"
 git init .
 git remote add -m master github git@<ssh-alias>:<root>/<repository>.git
 git add license.txt
-git commit -m "License 2023."
+git commit -m "License 2024."
 git branch -M master
 git push github master -u
 ```
