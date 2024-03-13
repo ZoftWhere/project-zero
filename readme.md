@@ -15,7 +15,7 @@ consistent behaviour between users and projects.
 
 ## License
 
-Copyright (c) 2020-2023 ZoftWhere
+Copyright (c) 2020-2024 ZoftWhere
 
 Licensed under the MIT License
 
