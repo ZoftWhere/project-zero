@@ -5,7 +5,7 @@
 
     <groupId>app.zoftwhere.project</groupId>
     <artifactId>project-zero</artifactId>
-    <version>2024-01-15</version>
+    <version>2024-03-13</version>
     <organization>
         <name>ZoftWhere</name>
         <url>https://github.com/ZoftWhere</url>
@@ -22,7 +22,7 @@
 
         <!-- Settings: maven-compiler-plugin -->
         <maven.compiler.main-jdk>8</maven.compiler.main-jdk>
-        <maven.compiler.test-jdk>17</maven.compiler.test-jdk>
+        <maven.compiler.test-jdk>21</maven.compiler.test-jdk>
 
         <!-- Settings: maven-build -->
         <maven.build.timestamp.format>yyyy-MM-dd&apos;T&apos;HH:mm:ss&apos;Z&apos;</maven.build.timestamp.format>
@@ -30,23 +30,23 @@
         <!-- Settings: User defined plugin properties (Maven) -->
         <!-- https://maven.apache.org/plugins/ -->
         <maven-assembly-plugin.version>3.6.0</maven-assembly-plugin.version>
-        <maven-clean-plugin.version>3.3.1</maven-clean-plugin.version>
-        <maven-compiler-plugin.version>3.11.0</maven-compiler-plugin.version>
-        <maven-dependency-plugin.version>3.6.0</maven-dependency-plugin.version>
+        <maven-clean-plugin.version>3.3.2</maven-clean-plugin.version>
+        <maven-compiler-plugin.version>3.12.1</maven-compiler-plugin.version>
+        <maven-dependency-plugin.version>3.6.1</maven-dependency-plugin.version>
         <maven-deploy-plugin.version>3.1.1</maven-deploy-plugin.version>
         <maven-ear-plugin.version>3.3.0</maven-ear-plugin.version>
-        <maven-enforcer-plugin.version>3.3.0</maven-enforcer-plugin.version>
+        <maven-enforcer-plugin.version>3.4.1</maven-enforcer-plugin.version>
         <maven-ejb-plugin.version>3.2.1</maven-ejb-plugin.version>
-        <maven-install-plugin.version>3.0.1</maven-install-plugin.version>
+        <maven-install-plugin.version>3.1.1</maven-install-plugin.version>
         <maven-jar-plugin.version>3.3.0</maven-jar-plugin.version>
-        <maven-javadoc-plugin.version>3.5.0</maven-javadoc-plugin.version>
+        <maven-javadoc-plugin.version>3.6.3</maven-javadoc-plugin.version>
         <maven-jdeps-plugin.version>3.1.2</maven-jdeps-plugin.version>
-        <maven-project-info-reports-plugin.version>3.4.0</maven-project-info-reports-plugin.version>
+        <maven-project-info-reports-plugin.version>3.5.0</maven-project-info-reports-plugin.version>
         <maven-resources-plugin.version>3.3.1</maven-resources-plugin.version>
-        <maven-shade-plugin.version>3.5.0</maven-shade-plugin.version>
-        <maven-site-plugin.version>3.12.0</maven-site-plugin.version>
+        <maven-shade-plugin.version>3.5.1</maven-shade-plugin.version>
+        <maven-site-plugin.version>3.12.1</maven-site-plugin.version>
         <maven-source-plugin.version>3.3.0</maven-source-plugin.version>
-        <maven-surefire-plugin.version>3.1.2</maven-surefire-plugin.version>
+        <maven-surefire-plugin.version>3.2.3</maven-surefire-plugin.version>
         <maven-toolchains-plugin.version>3.1.0</maven-toolchains-plugin.version>
         <maven-war-plugin.version>3.4.0</maven-war-plugin.version>
         <!-- Settings: User defined plugin properties (Other) -->
@@ -54,7 +54,7 @@
         <surefire.printSummary>false</surefire.printSummary>
         <!-- Settings: User defined dependency properties (main) -->
         <!-- Settings: User defined dependency properties (test) -->
-        <org.junit.5.version>5.9.2</org.junit.5.version>
+        <org.junit.5.version>5.10.2</org.junit.5.version>
     </properties>
 
     <dependencyManagement>
