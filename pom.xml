@@ -51,6 +51,7 @@
         <maven-war-plugin.version>3.4.0</maven-war-plugin.version>
         <!-- Settings: User defined plugin properties (Other) -->
         <codehaus-versions-maven-plugin.version>2.18.0</codehaus-versions-maven-plugin.version>
+        <fmt-maven-plugin.version>2.25</fmt-maven-plugin.version>
         <moditect-maven-plugin.version>1.2.2.Final</moditect-maven-plugin.version>
         <surefire.printSummary>false</surefire.printSummary>
         <!-- Settings: User defined dependency properties (main) -->
@@ -492,6 +493,12 @@
                     <ignoredVersions>.*RC.*,.*M.*,.*alpha.*,.*beta.*</ignoredVersions>
                     <generateBackupPoms>false</generateBackupPoms>
                 </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>com.spotify.fmt</groupId>
+                <artifactId>fmt-maven-plugin</artifactId>
+                <version>${fmt-maven-plugin.version}</version>
             </plugin>
 
             <plugin>
