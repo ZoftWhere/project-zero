@@ -50,7 +50,7 @@
         <maven-toolchains-plugin.version>3.1.0</maven-toolchains-plugin.version>
         <maven-war-plugin.version>3.4.0</maven-war-plugin.version>
         <!-- Settings: User defined plugin properties (Other) -->
-        <codehaus-versions-maven-plugin.version>2.15.0</codehaus-versions-maven-plugin.version>
+        <codehaus-versions-maven-plugin.version>2.18.0</codehaus-versions-maven-plugin.version>
         <moditect-maven-plugin.version>1.2.2.Final</moditect-maven-plugin.version>
         <surefire.printSummary>false</surefire.printSummary>
         <!-- Settings: User defined dependency properties (main) -->
@@ -488,6 +488,10 @@
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>versions-maven-plugin</artifactId>
                 <version>${codehaus-versions-maven-plugin.version}</version>
+                <configuration>
+                    <ignoredVersions>.*RC.*,.*M.*,.*alpha.*,.*beta.*</ignoredVersions>
+                    <generateBackupPoms>false</generateBackupPoms>
+                </configuration>
             </plugin>
 
             <plugin>
