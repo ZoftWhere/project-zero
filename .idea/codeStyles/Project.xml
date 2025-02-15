@@ -473,6 +473,8 @@
       <option name="PRIMARY_KEY_NAME_TEMPLATE" value="{table}_{columns}_pk" />
     </SybaseCodeStyleSettings>
     <XML>
+      <option name="XML_ATTRIBUTE_WRAP" value="0" />
+      <option name="XML_TEXT_WRAP" value="0" />
       <option name="XML_KEEP_LINE_BREAKS" value="false" />
       <option name="XML_KEEP_BLANK_LINES" value="1" />
       <option name="XML_ALIGN_ATTRIBUTES" value="false" />
@@ -829,6 +831,8 @@
     </codeStyleSettings>
     <codeStyleSettings language="XML">
       <option name="RIGHT_MARGIN" value="120" />
+      <option name="LINE_COMMENT_AT_FIRST_COLUMN" value="false" />
+      <option name="BLOCK_COMMENT_AT_FIRST_COLUMN" value="false" />
       <indentOptions>
         <option name="CONTINUATION_INDENT_SIZE" value="4" />
       </indentOptions>
