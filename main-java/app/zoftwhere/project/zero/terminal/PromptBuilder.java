@@ -12,6 +12,7 @@ public class PromptBuilder {
         this.prompt = prompt;
     }
 
+    @SuppressWarnings("unused")
     public PromptBuilder addHostName() {
         return new PromptBuilder(prompt + "\\h");
     }
@@ -28,6 +29,7 @@ public class PromptBuilder {
         return new PromptBuilder(prompt + "\\u");
     }
 
+    @SuppressWarnings("unused")
     private String escaped(String string) {
         StringBuilder builder = new StringBuilder();
         for (byte b : string.getBytes()) {
