@@ -30,34 +30,34 @@
         <!-- Settings: User defined plugin properties (Maven) -->
         <!-- https://maven.apache.org/plugins/ -->
         <maven-assembly-plugin.version>3.7.1</maven-assembly-plugin.version>
-        <maven-clean-plugin.version>3.4.0</maven-clean-plugin.version>
-        <maven-compiler-plugin.version>3.13.0</maven-compiler-plugin.version>
-        <maven-dependency-plugin.version>3.8.1</maven-dependency-plugin.version>
-        <maven-deploy-plugin.version>3.1.3</maven-deploy-plugin.version>
+        <maven-clean-plugin.version>3.5.0</maven-clean-plugin.version>
+        <maven-compiler-plugin.version>3.14.1</maven-compiler-plugin.version>
+        <maven-dependency-plugin.version>3.9.0</maven-dependency-plugin.version>
+        <maven-deploy-plugin.version>3.1.4</maven-deploy-plugin.version>
         <maven-ear-plugin.version>3.3.0</maven-ear-plugin.version>
-        <maven-enforcer-plugin.version>3.5.0</maven-enforcer-plugin.version>
+        <maven-enforcer-plugin.version>3.6.2</maven-enforcer-plugin.version>
         <maven-ejb-plugin.version>3.2.1</maven-ejb-plugin.version>
-        <maven-install-plugin.version>3.1.3</maven-install-plugin.version>
-        <maven-jar-plugin.version>3.4.2</maven-jar-plugin.version>
-        <maven-javadoc-plugin.version>3.11.2</maven-javadoc-plugin.version>
+        <maven-install-plugin.version>3.1.4</maven-install-plugin.version>
+        <maven-jar-plugin.version>3.5.0</maven-jar-plugin.version>
+        <maven-javadoc-plugin.version>3.12.0</maven-javadoc-plugin.version>
         <maven-jdeps-plugin.version>3.1.2</maven-jdeps-plugin.version>
-        <maven-project-info-reports-plugin.version>3.8.0</maven-project-info-reports-plugin.version>
+        <maven-project-info-reports-plugin.version>3.9.0</maven-project-info-reports-plugin.version>
         <maven-resources-plugin.version>3.3.1</maven-resources-plugin.version>
         <maven-shade-plugin.version>3.5.2</maven-shade-plugin.version>
         <maven-site-plugin.version>3.21.0</maven-site-plugin.version>
         <maven-source-plugin.version>3.3.1</maven-source-plugin.version>
-        <maven-surefire-plugin.version>3.5.2</maven-surefire-plugin.version>
+        <maven-surefire-plugin.version>3.5.4</maven-surefire-plugin.version>
         <maven-toolchains-plugin.version>3.1.0</maven-toolchains-plugin.version>
         <maven-war-plugin.version>3.4.0</maven-war-plugin.version>
         <!-- Settings: User defined plugin properties (Other) -->
-        <codehaus-versions-maven-plugin.version>2.18.0</codehaus-versions-maven-plugin.version>
-        <fmt-maven-plugin.version>2.25</fmt-maven-plugin.version>
-        <moditect-maven-plugin.version>1.2.2.Final</moditect-maven-plugin.version>
+        <codehaus-versions-maven-plugin.version>2.20.1</codehaus-versions-maven-plugin.version>
+        <fmt-maven-plugin.version>2.29</fmt-maven-plugin.version>
+        <moditect-maven-plugin.version>1.3.0.Final</moditect-maven-plugin.version>
         <surefire.printSummary>false</surefire.printSummary>
-        <tidy-maven-plugin.version>1.3.0</tidy-maven-plugin.version>
+        <tidy-maven-plugin.version>1.4.0</tidy-maven-plugin.version>
         <!-- Settings: User defined dependency properties (main) -->
         <!-- Settings: User defined dependency properties (test) -->
-        <org.junit.5.version>5.11.4</org.junit.5.version>
+        <org.junit.5.version>6.0.1</org.junit.5.version>
     </properties>
 
     <dependencyManagement>
@@ -487,7 +487,7 @@
                 <artifactId>versions-maven-plugin</artifactId>
                 <version>${codehaus-versions-maven-plugin.version}</version>
                 <configuration>
-                    <ignoredVersions>.*RC.*,.*M.*,.*alpha.*,.*beta.*</ignoredVersions>
+                    <ignoredVersions>(?i).*RC.*,.*M\d+,(?i).*alpha.*,(?i).*beta.*</ignoredVersions>
                     <generateBackupPoms>false</generateBackupPoms>
                 </configuration>
             </plugin>
